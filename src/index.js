@@ -44,7 +44,7 @@ function renderBook(book) {
 	li.append(imgNode);
 	li.append(deleteBtn);
 }
-
+//Dispaly (see browser) -> Behavior (submit form) -> updated (adding a new book) -> Display (see browser)
 //✅ 2. add a submit event listener to the form
 //2 key event listeners : submit, change
 //✅ 2a. save the form node as a const
@@ -83,7 +83,7 @@ bookForm.addEventListener('submit', (e) => {
     imageUrl: bookForm.imageUrl.value
   }
   renderBook(newBook)
-
+//Display (see browser) -> behavior (on click) -> updates (classNames, button text) -> Display
 //✅  3. recap - show the form when you click on the "add new book" button
 
 //form is saved as bookForm
