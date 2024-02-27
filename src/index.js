@@ -87,9 +87,9 @@ const inventory = [
 // or put in a variable that evaluates to a string
 // myName = 'Rachel'
 // helloWorld(myName)
-function helloWorld(name){
+function helloWorld(){
   //"Hello World " + name 
-  return `Hello World, ${name}`
+  return "Hello World"
 }
 //✅ 2. For Easley's bookstore, create formatPrice(price)
 // 3.3333333 -> '$3.33'
@@ -171,7 +171,9 @@ let mapReturn = prices.map((el, i) => {
 
 let inventoryBlurbs = inventory.map((el, i) => {
   //el represents one book in inventory
+  
   //blurb(el) will spit out one string
+  console.log(el)
   return blurb(el)
 })
 
